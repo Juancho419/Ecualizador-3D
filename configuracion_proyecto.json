@@ -1,0 +1,39 @@
+{
+    "proyecto": {
+        "nombre": "Episodio 1",
+        "duracion_segundos": 600,
+        "cantidad_shots": 100,
+        "cantidad_props": 30,
+        "cantidad_personajes": 30,
+        "cantidad_vfx": 30
+    },
+    "produccion": {
+        "sinopsis": {"duracion_por_artista_dias": 1, "cantidad": 1},
+        "guiones": {"duracion_por_artista_dias": 1.5, "cantidad": 5},
+        "storyboard": {"duracion_por_artista_dias": 1.5, "cantidad": 5},
+        "animacion": {"duracion_por_artista_dias": 5, "cantidad": 5},
+        "lighting": {"duracion_por_artista_horas": 0.3, "cantidad": 230},
+        "render": {"duracion_por_frame_minutos": 4, "cantidad": 14400},
+        "compositing": {"duracion_por_artista_horas": 2, "cantidad": 230}
+    },
+    "characters": {
+        "main": {"arte_dias": 1, "modelado_dias": 10, "rig_dias": 15, "textura_dias": 4},
+        "secondary": {"arte_dias": 1, "modelado_dias": 9, "rig_dias": 12, "textura_dias": 3},
+        "incidental": {"arte_dias": 0.5, "modelado_dias": 9, "rig_dias": 5, "textura_dias": 2}
+    },
+    "environments": {
+        "main": {"arte_dias": 8, "modelado_dias": 10, "textura_dias": 7},
+        "secondary": {"arte_dias": 4, "modelado_dias": 5, "textura_dias": 3}
+    },
+    "props": {
+        "hero": {"arte_dias": 1, "modelado_dias": 3, "rig_dias": 1, "textura_dias": 1},
+        "main": {"arte_dias": 0.5, "modelado_dias": 1, "rig_dias": 1, "textura_dias": 1},
+        "standard": {"arte_dias": 0.25, "modelado_dias": 0.5, "rig_dias": 0.5, "textura_dias": 0.5}
+    },
+    "parametros_globales": {
+        "dias_laborales_semana": 5,
+        "horas_laborales_dia": 7.5,
+        "dias_laborales_mes": 22,
+        "contingencia": 1.15
+    }
+}
